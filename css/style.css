@@ -41,12 +41,15 @@ img {
   padding-bottom: 94px;
 }
 /* -----------Шапка сайту --------------------------------------------------------- */
-
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid #ECECEC;
+ 
+}
 .main-nav {
   display: flex;
   align-items: center;
-  height: 80px;
-  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
@@ -124,6 +127,8 @@ img {
 /* -------- Герой --------  */
 .hero {
   background-color: #2f303a;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .hero-container {
   display: flex;
@@ -133,7 +138,7 @@ img {
 
 .hero-top-title {
   display: flex;
-  margin-top: 200px;
+  margin-top: 106px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -146,7 +151,8 @@ img {
 }
 .hero-btn {
   display: flex;
-  margin-bottom: 200px;
+  padding: 10px 32px 10px 32px;
+  margin-bottom: 106px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -163,6 +169,8 @@ img {
 }
 
 .benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits-container {
   display: flex;
@@ -171,7 +179,8 @@ img {
   list-style: none;
   display: flex;
   gap: 30px;
-  margin: 94px auto 118px auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 .benefits-item {
 }
@@ -189,12 +198,14 @@ img {
   display: flex;
   font-size: 14px;
   max-width: 270px;
-  line-height: var(--typical-lh);
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
 .about {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-container {
   display: flex;
@@ -213,7 +224,6 @@ img {
 .about-list {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
   list-style: none;
 }
 .about-img-right {
@@ -223,6 +233,8 @@ img {
 
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-container {
   display: flex;
@@ -239,8 +251,6 @@ img {
   color: var(--second-color);
 }
 .img-team {
-  display: flex;
-  margin-bottom: 94px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -252,7 +262,7 @@ img {
   list-style: none;
 }
 .team-top-text {
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -262,7 +272,7 @@ img {
   color: var(--second-color);
 }
 .team-bottom-text {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -273,6 +283,8 @@ img {
 /* --------Футер--------- */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-container {
   display: flex;
@@ -280,7 +292,6 @@ img {
 }
 
 .footer-logo {
-  margin-top: 60px;
   margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -353,7 +364,6 @@ img {
 
 .menu--top-list {
   display: flex;
-  margin-top: 94px;
   margin-bottom: 50px;
   gap: 8px;
   list-style: none;
@@ -382,19 +392,22 @@ img {
 
 /* ------Кард-сет-------- */
 
+.menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .menu-under-container {
-  margin-bottom: 94px;
+  
 }
 .menu-under-list {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   gap: 30px;
-
   list-style: none;
 }
 .cards {
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 .menu-under-item {
 }
@@ -402,6 +415,8 @@ img {
 .menu-title {
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -409,11 +424,11 @@ img {
 }
 .menu-text {
   margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
-/* flex-wrap: wrap;
-  justify-content: center; */
