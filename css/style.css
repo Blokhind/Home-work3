@@ -36,14 +36,14 @@ img {
   max-width: 100%;
   height: auto;
 }
-.section {
+section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 /* -----------Шапка сайту --------------------------------------------------------- */
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border: 1px solid #ECECEC;
  
 }
@@ -127,8 +127,8 @@ img {
 /* -------- Герой --------  */
 .hero {
   background-color: #2f303a;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-container {
   display: flex;
@@ -138,7 +138,6 @@ img {
 
 .hero-top-title {
   display: flex;
-  margin-top: 106px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -152,7 +151,6 @@ img {
 .hero-btn {
   display: flex;
   padding: 10px 32px 10px 32px;
-  margin-bottom: 106px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -170,7 +168,7 @@ img {
 
 .benefits {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 .benefits-container {
   display: flex;
@@ -256,13 +254,16 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-list {
   display: flex;
   gap: 30px;
   list-style: none;
 }
 .team-top-text {
-  padding-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -272,7 +273,6 @@ img {
   color: var(--second-color);
 }
 .team-bottom-text {
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -407,25 +407,19 @@ img {
   list-style: none;
 }
 .cards {
+  padding: 20px 24px 20px 24px;
   border: 1px solid #eeeeee;
 }
 .menu-under-item {
 }
 
 .menu-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-color);
 }
 .menu-text {
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
